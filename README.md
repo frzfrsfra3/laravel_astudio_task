@@ -77,8 +77,8 @@ Other Endpoints:
 5. GET /api/project - Retrieve project records
 6. GET /api/project/{id} - Bring the project data
 7. POST /api/project/{id}/update - Update an existing project
-8. DELETE /api/project/{id}/delete - Delete a user
-9. GET /api/timesheet - Retrieve timesheet records
+8. POST /api/project/{id}/delete - Delete a user
+9.  GET /api/timesheet - Retrieve timesheet records
 10. GET /api/timesheet/{id} - Bring timesheet data
 11. POST /api/timesheet/{id}/update - Update an existing timesheet
 12. POST /api/timesheet/{id}/delete - Delete a timesheet
