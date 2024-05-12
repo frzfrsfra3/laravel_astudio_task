@@ -38,23 +38,27 @@ Login:
         "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9..." }
 
 Register:
-        Method: POST
-        Endpoint: /api/register
-        Description: Creates a new user account.
-        Request Body: { "first_name": "mhd feras",
+    Method: POST
+    Endpoint: /api/register
+    Description: Creates a new user account.
+    Request Body: { 
+        "first_name": "mhd feras",
         "last_name": "zaiter",
         "gender": "male",
         "date_of_birth": "1997-01-01",
         "email": "user@example.com", "password": "password" }
-        Response: {  "user": {...},
+    Response: {  
+        "user": {...},
         "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9..." }
 
 Logout:
-        Method: POST
-        Endpoint: /api/logout
-        Description: Invalidates the user's authentication token.
-        Authorization Header: Bearer <token>
-        Response: { "message": "Logged out successfully" }
+    Method: POST
+    Endpoint: /api/logout
+    Description: Invalidates the user's authentication token.
+    Authorization Header: Bearer <token>
+    Response: { 
+        "message": "Logged out successfully"
+        }
 
 Request Headers:
 
