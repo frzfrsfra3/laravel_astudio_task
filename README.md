@@ -48,7 +48,7 @@ Register:
         "date_of_birth": "1997-01-01",
         "email": "user@example.com", "password": "password" }
     Response: {  
-        "user": {...},
+         "user": {...},
         "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9..." }
 
 Logout:
