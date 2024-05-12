@@ -86,4 +86,3 @@ Other Endpoints:
 If you encounter any issues or need further assistance, feel free to contact me at mhd.feras97@gmail.com.
 
 Thank you,
-Mhd Feras
